@@ -1,0 +1,164 @@
+
+*{
+    color: #666666;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.logo h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #1791C8;
+}
+.logo span{
+    color: #666666;
+}
+
+.hero{
+    background-image: url(computer.png);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20%;
+}
+
+.hero .container #p1{
+    color:  #1791C8;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.hero .container p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+@media screen and (max-width:780px) {
+    .hero .container h1{
+        font-size: 2rem;
+        padding-top: 0px;
+    }
+    
+    .hero .container p{
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-align: justify;
+    }
+}
+.contact{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.services .container h3{
+    color: #1791C8;
+    text-decoration: underline;
+}
+
+.services .container h1{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    color: #1791C8;
+}
+.temoignage{
+    background-color:rgba(223, 223, 223, 0.766) ;
+    /* border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666; */
+}
+
+.temoignage h1{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    color: #1791C8;
+
+}
+.temoignage .container span{
+    font-weight: 700;
+    color:  #1791C8;
+    font-size: 1.3rem;
+}
+
+.team h1{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    color: #1791C8;
+}
+
+.team .container .carte{
+    height: 400px;
+}
+.team .container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.team .container h5{
+    color: #1791C8;
+}
+
+.contact h1{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    color: #1791C8;
+}
+
+@media screen and (max-width:780px) {
+    .contact .bouton .contact{
+        width: 100%;
+    } 
+}
+
+footer{
+    background-color: #1b1c1d;
+}
+
+footer .container p{
+    color: #666666;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+footer .container .image{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+footer .image img{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+}
+
+footer .container .bas{
+    background-color: #000000;
+    width: 100%;
+    height: 40px;
+}
+
+footer .container .bas p{
+    font-size: 1.2rem;
+    color: #666666;
+}
